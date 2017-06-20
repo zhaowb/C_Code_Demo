@@ -1,3 +1,7 @@
+/* based on https://docstore.mik.ua/orelly/networking_2ndEd/dns/ch15_02.htm
+ * A demo to query DNS records and parse return packets.
+ */
+
 #include <netinet/in.h>
 #include <arpa/nameser.h>
 #include <resolv.h>
